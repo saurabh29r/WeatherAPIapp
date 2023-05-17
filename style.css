@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" , sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black ;
+}
+
+.card{
+    height: 100%;
+    width: 25%;
+    background-color: #8801e8;
+    border-radius: 10px;
+
+}
+.serach{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.serach input{
+    background: #ebfffc;
+    border-radius: 20px;
+
+}
+
+.serach button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.serach button img{
+    width: 16px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 20px;
+}
+
+p{
+    margin: 0;
+}
+
+.weather h1{
+    color: white;
+    font-weight: bold;
+}
+
+.weather h2{
+    color: white;
+    font-weight: bold;
+}
+
+
+.wind{
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+}
