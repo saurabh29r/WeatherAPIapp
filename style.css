@@ -6,25 +6,30 @@
 }
 
 body{
-    background-color: black ;
+    background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+
 }
 
 .card{
     height: 100%;
-    width: 25%;
+    width: max-content;
     background-color: #8801e8;
     border-radius: 10px;
+    background-size: cover;
 
 }
 .serach{
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 15px;
     
 }
 .serach input{
     background: #ebfffc;
-    border-radius: 20px;
+    border-radius: 10px;
+    
 
 }
 
@@ -77,4 +82,31 @@ p{
 
 p{
     color: white;
+}
+
+.errors{
+    text-align: left;
+    margin: 10px;
+    color: pink;
+    display: none;
+    
+
+}
+
+.error{
+    text-align: left;
+    margin: 10px;
+    color: pink;
+    display: block;
+    
+
+}
+
+.weather{
+    display: none;
+}
+
+
+.weathers{
+    display: block;
 }

@@ -15,22 +15,27 @@
     <div>
    <div class="card mx-auto mt-5 text-center">
     <div class="serach d-flex flex-row justify-space-between">
-        <input type="text" class="form-control" placeholder="Enter the city name">
-        <button><img src="Resources/search.png" alt=""></button>
+        <input type="text" class="form-control "  id="CityValues"   placeholder="Enter the city name">
+        <button id="btns"><img src="Resources/search.png"></button>
     
 
        
         </div>
-        <div class="weather ">
-            <img src="Resources/rain.png" class="wather-icon">
-            <h1 class="temps">22°C</h1>
-            <h2 class="city "> New York</h2>
+
+        <div>
+            <p class="errors" id="erores"> Invalid city Name </p>
+        </div>
+
+        <div class="weather" id="weathers">
+            <img src="Resources/rain.png" class="wather-icon" id="weatherIcon">
+            <h1 class="temps" id="tempss">22°C</h1>
+            <h2 class="city " id="city"> New York</h2>
             <div class="details mt-5 mb-5">
                 <div class="d-flex flex-row justify-space-between">
                 <div class="col">
                     <img src="Resources/humidity.png">
                    <div>
-                        <p class="wind"> 50% </p>
+                        <p class="wind" id="humid"> 50% </p>
                         <p> Humidity</p>
                     
                     </div>
@@ -40,7 +45,7 @@
                     <div class="col">
                         <img src="Resources/wind.png">
                         <div>
-                            <p class="wind"> 15Km/h </p>
+                            <p class="wind" id="winds"> 15Km/h </p>
                             <p> Wind Speed</p>
 
                             
@@ -53,6 +58,6 @@
    
    </div>
 
-    
+    <script src="app.js"></script>
 </body>
 </html>
